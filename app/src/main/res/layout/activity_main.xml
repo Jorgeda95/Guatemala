@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <!--asi se escriben comentarios :3 -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Total"
+        android:id="@+id/tvMostrar"
+        android:textSize="70sp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="45sp"
+        android:layout_height="wrap_content"
+        android:text="Sumar"
+        android:id="@+id/bAgregar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restar"
+        android:id="@+id/bRestar"
+        android:layout_gravity="center"
+        android:textSize="45sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/resul"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
+
+<!-- wewerertertertert    -->
